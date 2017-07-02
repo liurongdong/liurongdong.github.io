@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[border-image兼容性问题]]></title>
     <url>%2F2017%2F07%2F02%2Fborder-image%E5%85%BC%E5%AE%B9%E6%80%A7%E9%97%AE%E9%A2%98%2F</url>
-    <content type="text"><![CDATA[#border-image123456789101112131415161718192021&lt;!DOCTYPE html&gt;&lt;html lang="en"&gt;&lt;head&gt; &lt;meta charset="UTF-8" /&gt; &lt;title&gt;border-image属性的示例&lt;/title&gt; &lt;style type="text/css"&gt; div&#123; border:dashed ; height: 100px; width: 500px; border-image:url('bt_blue.png')fill 9/9px stretch; -moz-border-image: url('bt_blue.png') 9/9px ; -webkit-border-image: url('bt_blue.png') 9/9px ; &#125; &lt;/style&gt;&lt;/head&gt;&lt;body&gt; &lt;div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt; 1.以上代码在Chrome56.0 和 Opera 46.0 上完美显示在火狐54.0上显示只有边框虚线部分 在IE11可以显示。11以下无法显示 2.还发现一个奇怪的问题 虽然在火狐上只显示！虚线 但是在改变浏览器窗口的大小的时候(或者过一段时间)会变成！这样]]></content>
+    <content type="text"><![CDATA[#border-image123456789101112131415161718192021&lt;!DOCTYPE html&gt;&lt;html lang="en"&gt;&lt;head&gt; &lt;meta charset="UTF-8" /&gt; &lt;title&gt;border-image属性的示例&lt;/title&gt; &lt;style type="text/css"&gt; div&#123; border:dashed ; height: 100px; width: 500px; border-image:url('bt_blue.png')fill 9/9px stretch; -moz-border-image: url('bt_blue.png') 9/9px ; -webkit-border-image: url('bt_blue.png') 9/9px ; &#125; &lt;/style&gt;&lt;/head&gt;&lt;body&gt; &lt;div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt; 1.以上代码在Chrome56.0 和 Opera 46.0 上完美显示在火狐54.0上显示只有边框虚线部分 在IE11可以显示。11以下无法显示 2.还发现一个奇怪的问题 虽然在火狐上只显示 但是在改变浏览器窗口的大小的时候(或者过一段时间)会变成]]></content>
       <categories>
         <category>日常笔记</category>
       </categories>
